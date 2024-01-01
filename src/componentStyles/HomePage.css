@@ -9,27 +9,29 @@
 .mainPageItemsContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 65px;
 }
 
 .mainPageText {
     display: grid;
     justify-content: center;
     align-content: center;
+    padding-top: 15vh;
     padding-left: 130px;
     padding-right: 76px;
     background: #f8f8f8;
 }
 
-.skills {
+.prefferedRole {
     color: #d5c455;
     font-size: 19px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.name {
+.intro {
     text-transform: capitalize;
-    font-size: 73px;
+    font-size: 65px;
     font-weight: 700;
     line-height: 1.2;
     color: #222222;
@@ -37,8 +39,10 @@
 }
 
 .mainPagePhotoContainer {
-    background: #d5c455;
-    height: calc(100vh - 91px);
+    background: #f8f8f8;
+    height: calc(100vh - 65px);
+    justify-self: flex-end;
+    width: 50vw;
 }
 
 .btnContainer {
@@ -46,6 +50,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: fit-content;
+    margin-bottom: 5.7rem;
 }
 
 .btn {
@@ -57,6 +62,7 @@
     font-weight: 600;
     border: none;
     background: #fff;
+    border-radius: 6px;
 }
 
 .aboutMe {
@@ -68,6 +74,7 @@
     cursor: pointer;
     background: #fff;
     color: #d5c455;
+    transition: all 0.3s ease-in-out;
 }
 
 .fa-arrow-right-long {
@@ -77,14 +84,12 @@
 .mainPagePhoto {
     display: grid;
     justify-content: center;
-    padding: 20px 0;
+    background-color: #d5c455;
 }
-
-.copyrightContainer {
-    margin-top: 8rem;
+.mainPagePhoto img{
+    height: 91vh;
 }
-.copyright{
-    font-size: 14px;
-    color: #959595;
-    letter-spacing: 1px;
+.copyrightHomePage {
+    bottom: 0px;
+    padding: 2rem 0;
 }

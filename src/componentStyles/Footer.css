@@ -1,0 +1,10 @@
+.copyrightContainer {
+    text-align: center;
+    bottom: 0px;
+    padding: 2rem 0;
+}
+.copyright{
+    font-size: 14px;
+    color: #959595;
+    letter-spacing: 1px;
+}

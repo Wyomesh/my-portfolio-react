@@ -1,3 +1,45 @@
-.aboutUsContainer{
-    background: #f8f8f8;
+.aboutUsContainer {
+  background: #f8f8f8;
+  padding-top: 5rem;
+  text-align: center;
+}
+.aboutUsContainer:hover {
+  cursor: default;
+}
+.aboutUsItems {
+  margin: 0 20vw;
+}
+.image {
+  background: #d5c455;
+  width: 200px;
+  border-radius: 50%;
+  border: 6px solid rgb(50, 50, 209);
+}
+.myName {
+  color: #2b45c3;
+  font-weight: 600;
+}
+.discription {
+  color: #021b9c;
+}
+.summaryContainer,
+.educationContainer,
+.skillsContainer,
+.projectsContainer,
+.internshipsContainer,
+.certificationsContainer {
+  margin-top: 2rem;
+  text-align: justify;
+}
+.summary,
+.programmingLanguages,
+.webDevelopement,
+.softSkills {
+  margin-left: 15px;
+  margin-top: 0.5rem;
+}
+.certificates,
+.projects {
+  text-decoration: none;
+  color: #2b45c3;
 }

@@ -1,0 +1,60 @@
+.formContainer {
+  padding-top: 65px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  background: #f8f8f8;
+}
+.contactHeading {
+  margin-top: 2rem;
+  color: #021b9c;
+  font-size: 48px;
+}
+.contactPara {
+  width: 37vw;
+  font-size: 20px;
+  color: #2b45c3;
+  margin-top: 1rem;
+}
+.form {
+  display: grid;
+  justify-content: center;
+}
+.contactInp {
+  width: 37vw;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  margin: 0.7rem 0;
+  border: 1px solid #021b9c;
+  border-radius: 50px;
+  background: #fff;
+}
+.contactTextarea {
+  margin: 0.8rem 0 0.3rem 0;
+  padding: 0.5rem 1rem;
+  height: 20vh;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid #021b9c;
+}
+.contactInp:focus {
+  outline-color: 5px solid #021b9c;
+}
+::placeholder {
+  opacity: 0.5;
+}
+.contactBtn{
+    width: fit-content;
+    margin: 1rem 0 0 0;
+    padding: 0.8rem 7rem;
+    border-radius: 50px;
+    font-size: 18px;
+    background: #021b9c;
+    color: #fff;
+    border: none;
+    display: grid;
+    justify-self: center;
+}
+.contactBtn:hover{
+    cursor: pointer;
+}
